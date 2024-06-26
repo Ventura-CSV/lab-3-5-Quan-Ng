@@ -7,7 +7,22 @@ def main():
     Code Your Program here
     ########################################
     """
-    duplication = 0
+    if (num1 == num2 == num3):
+        duplication = 3
+        
+    elif (num1 == num2):
+        duplication = 2
+    
+    elif (num1 == num3):
+        duplication = 2
+        
+    elif (num2 == num3):
+        duplication = 2 
+        
+    else:
+        duplication = 0
+        
+    print (f'Duplication: {duplication}')
 
     ########################################
     # Do not delete the return statement
